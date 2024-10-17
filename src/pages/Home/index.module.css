@@ -5,6 +5,7 @@
 
 .hero {
   height: 72vh;
+  height: 92vh;
   padding: 6rem;
   color: var(--white);
   background-color: var(--gray);
@@ -61,7 +62,7 @@ p {
 }
 .feedback {
   padding: 6rem;
-  height: 50vh;
+  height: 60vh;
 }
 .contacts {
   padding: 6rem;

@@ -3,3 +3,13 @@
   backdrop-filter: blur(5px);
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
+.textContent {
+  background-color: var(--light-primary);
+  padding: 2.5rem 3rem;
+  /* height: 20rem; */
+  border-radius: 1rem;
+}
+.transparentImage {
+  opacity: 0;
+  height: 20rem;
+}
