@@ -69,9 +69,4 @@ p {
   height: 60vh;
   background-color: var(--light-gray);
 }
-.footer {
-  padding: 6rem;
-  height: 50vh;
-  background-color: var(--primary);
-}
 

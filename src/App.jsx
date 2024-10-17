@@ -8,6 +8,7 @@ import { Services } from "./pages/Services";
 import { Dashboard } from "./pages/Dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
+      <Footer />
+
       </BrowserRouter>
     </div>
   );
