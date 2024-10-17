@@ -1,38 +1,78 @@
+:root {
+  --warning: #ff8f00;
+  --warning-active: #f08000;
+  --danger: #e62020;
+  --danger-active: #fd5c63;
+  --primary: #3f00ff;
+  --primary-active: #082567;
+  --success: #228b22;
+  --success-active: #50c878;
+  --light-gray: lightgray;
+  --dark-gray: darkgray;
+  --gray: gray;
+  --text-white: #f2f2f2;
+  --bg-white: ivory;
+  --text-dark: #1d1d1d;
+  --bg-dark: #1d1d1d;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 .App {
-  text-align: center;
+  /* background-color: var(--primary
+  ); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 30ms ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn:active {
+  box-shadow: 0 0 2px 2px inset var(--gary);
+  transform: scale(95%, 95%);
 }
 
-.App-link {
-  color: #61dafb;
+.signin-btn {
+  background-color: var(--warning);
+  color: var(--text-white);
+  font-size: 1.2rem;
+}
+.signin-btn:active {
+  background-color: var(--warning-active);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup-btn {
+  background-color: var(--warning);
+  color: var(--text-white);
+  font-size: 1.2rem;
+}
+.signup-btn:active {
+  background-color: var(--warning-active);
+}
+
+.signout-btn {
+  background-color: var(--danger);
+  color: var(--text-white);
+  font-size: 1.2rem;
+}
+.signout-btn:active {
+  background-color: var(--danger-active);
+}
+.secondary-btn {
+  background-color: var(--light-gray);
 }

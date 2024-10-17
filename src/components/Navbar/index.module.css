@@ -1,0 +1,37 @@
+.navbar {
+  padding: 1rem 6rem;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-white);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.navBrand {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.rightNav {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navLinks {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: var(--text-white);
+}
+
+.navLink {
+  margin: 0 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.navBtns {
+  display: flex;
+  gap: 0.5rem;
+}

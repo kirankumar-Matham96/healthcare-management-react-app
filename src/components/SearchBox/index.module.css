@@ -1,0 +1,7 @@
+.input {
+  border: none;
+  outline: none;
+  color: var(--text-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}

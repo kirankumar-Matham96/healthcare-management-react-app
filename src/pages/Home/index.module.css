@@ -1,0 +1,37 @@
+.bgContainer {
+  min-height: 100vh;
+  background-color: var(--bg-white);
+}
+.hero {
+  height: 72vh;
+  padding: 6rem;
+  color: var(--white);
+  background-color: var(--dark-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services {
+  padding: 6rem;
+  height: 50vh;
+}
+.About {
+  padding: 6rem;
+  height: 50vh;
+  background-color: var(--light-gray);
+}
+.feedback {
+  padding: 6rem;
+  height: 50vh;
+}
+.contacts {
+  padding: 6rem;
+  height: 50vh;
+  background-color: var(--light-gray);
+}
+.footer {
+  padding: 6rem;
+  height: 50vh;
+  background-color: var(--primary);
+}
