@@ -2,6 +2,7 @@
   min-height: 100vh;
   background-color: var(--bg-white);
 }
+
 .hero {
   height: 72vh;
   padding: 6rem;
@@ -19,13 +20,44 @@
   font-size: 2rem;
 }
 .services {
-  padding: 6rem;
-  height: 50vh;
+  padding: 3rem 6rem 6rem;
+  /* height: 50vh; */
 }
-.About {
+.h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 1.3rem;
+}
+.serviceCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardHeading {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+.cardText {
+  font-size: 1.3rem;
+}
+.about {
   padding: 6rem;
-  height: 50vh;
   background-color: var(--light-gray);
+  display: flex;
+}
+.about img {
+  width: 100%;
+  aspect-ratio: 5/2;
+}
+.headingLeft {
+  text-align: start;
+}
+.carousel {
+  width: 90%;
+  border: 1rem solid var(--gray);
 }
 .feedback {
   padding: 6rem;

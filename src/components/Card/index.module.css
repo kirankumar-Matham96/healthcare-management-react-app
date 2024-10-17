@@ -1,0 +1,7 @@
+.bgContainer {
+  border: 1px solid red;
+  padding: 2rem;
+  border: 1px solid var(--gray);
+  border-radius: 1rem;
+  text-align: center;
+}
