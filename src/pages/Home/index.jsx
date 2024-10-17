@@ -2,6 +2,7 @@ import { CarouselComponent } from "../../components/CarouselComponent";
 import { Button } from "../../components/Button";
 import { CustomCard } from "../../components/Card";
 import homeStyles from "./index.module.css";
+import { ContactForm } from "../../components/ContactForm";
 
 export const Home = () => {
   const imageSet = [
@@ -107,7 +108,10 @@ export const Home = () => {
         <h2 className={homeStyles.h2}>What Our Patients Say</h2>
         <CarouselComponent feedback={feedback} />
       </section>
-      <section className={homeStyles.contacts}></section>
+      <section className={homeStyles.contacts}>
+        <h2 className={homeStyles.h2}>Contact Us</h2>
+        <ContactForm />
+      </section>
       <footer className={homeStyles.footer}></footer>
     </div>
   );
