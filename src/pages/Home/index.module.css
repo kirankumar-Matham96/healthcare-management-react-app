@@ -6,11 +6,17 @@
   height: 72vh;
   padding: 6rem;
   color: var(--white);
-  background-color: var(--dark-gray);
+  background-color: var(--gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.h1 {
+  font-size: 4rem;
+}
+.subH {
+  font-size: 2rem;
 }
 .services {
   padding: 6rem;

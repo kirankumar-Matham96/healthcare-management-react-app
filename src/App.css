@@ -74,5 +74,9 @@ a {
   background-color: var(--danger-active);
 }
 .secondary-btn {
-  background-color: var(--light-gray);
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  padding: 1rem 1.5rem;
+  background-color: var(--bg-white);
 }

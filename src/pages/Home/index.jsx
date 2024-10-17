@@ -5,9 +5,13 @@ export const Home = () => {
   return (
     <div className={homeStyles.bgContainer}>
       <header className={homeStyles.hero}>
-        <h1>Welcome to Healthcare Management System</h1>
-        <p>Your health, our priority. Comprehensive care at your fingertips.</p>
-        <Button class="btn btn-secondary">Get Started</Button>
+        <h1 className={homeStyles.h1}>
+          Welcome to Healthcare Management System
+        </h1>
+        <p className={homeStyles.subH}>
+          Your health, our priority. Comprehensive care at your fingertips.
+        </p>
+        <Button class="btn secondary-btn">Get Started</Button>
       </header>
       <section className={homeStyles.services}></section>
       <section className={homeStyles.About}></section>
